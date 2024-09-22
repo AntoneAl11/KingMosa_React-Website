@@ -1,10 +1,17 @@
 /* Home.css */
 .home {
-    background-color: black;
+    background-image: url(/src/Components/img/Desktop\ -\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center bottom;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    width: 100vw;
   }
+img{
+    position: absolute;
+    top:100%;
+    left: 35%;
+
+}
+  
   
