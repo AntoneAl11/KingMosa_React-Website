@@ -1,5 +1,6 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import Contacto from "./Components/Contacto";
 import Home from "./Components/Home";
 import Mainpage from "./Components/Mainpage";
 import Menu from "./Components/Menu";
@@ -11,6 +12,7 @@ function App() {
         <Route exact path="/" element={<Home/>} />
         <Route path="/mainpage" element={<Mainpage/>} />
         <Route path='/mainpage/menu' element={<Menu/>}/>
+        <Route path='/mainpage/contacto' element={<Contacto/>}/>
       </Routes>
     </Router>
   );
