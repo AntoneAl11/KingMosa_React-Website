@@ -28,8 +28,13 @@ nav ul {
   nav ul li a {
     text-decoration: none;
   }
+  .button {
+    background-color: black;
+  }
 
   .menuu {
     text-align: center;
   }
-  
+  .mainpagee {
+    background-color: black;
+  }

@@ -2,12 +2,16 @@ import React from "react";
 import Header from "./header";
 import Footer from "./footer";
 import "./Mainpage.css";
+import menu1 from "./img/Menu.jpeg"
+import menu2 from "./img/menu2.jpg"
 
-function Mainpage (){
+function Menu (){
     return(
         <div>
             <Header/>
             <main className="menuu">
+                <img src={menu1} alt="menupizzas"/>
+                <img src={menu2} alt="menupizzas2"/>
                 <br></br>
                 <br></br>
                 <br></br>
@@ -17,4 +21,4 @@ function Mainpage (){
     )
 }
 
-export default Mainpage;
+export default Menu;
