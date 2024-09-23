@@ -8,7 +8,7 @@ import Logo from './img/Logo.PNG';
 
 function Header(){
     return(
-        <header>
+        <header className="header">
             <img src={Logo} width="200px" alt="Logo King Mosa"/>
             <nav>
                 <ul>

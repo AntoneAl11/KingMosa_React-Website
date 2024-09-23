@@ -1,6 +1,6 @@
 /* Home.css */
 .home {
-    background-image: url(/src/Components/img/Desktop\ -\ 1.png);
+    background-image: url("./img/Desktop\ -\ 1.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -8,14 +8,20 @@
     height: 100vh;
     width: 100vw;
   }
-img{
-    position: absolute;
-    width: 28vw;
-    top: 85%;
-    left: 60%;
-    transform: translate(-80%, -40%);
-    padding: 2vw 4vw;
 
+.btnin {
+    background-image: url("./img/Entrar.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute !important;
+    border-radius: 30px;
+    width: 30vw;
+    height: 10vw;
+    top: 85% !important;
+    left: 60% !important;
+    transform: translate(-80%, -40%) !important;
+    padding: 2vw 4vw !important;
 }
   
   
