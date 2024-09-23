@@ -7,7 +7,8 @@ function Mainpage (){
     return(
         <div>
             <Header/>
-            <main className="menuu">
+            <main className="mainpagee">
+                <h1>La forma exquisita de comer pizza</h1>
                 <br></br>
                 <br></br>
                 <br></br>
