@@ -1,17 +1,14 @@
-import React, { useEffect, useState } from 'react';
-import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
-import Contacto from "./Components/Contacto";
+import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from "./Components/Home";
 import Mainpage from "./Components/Mainpage";
 import Menu from "./Components/Menu";
+import Contacto from "./Components/Contacto";
 
 function App() {
-  const [message, setMessage] = useState("");
-
-  useEffect(() =>{
-    fetch("/api").then(response => response.json()).then(data => setMessage(data.message));
-  },[])
-
+  useEffect(() => {
+    fetch("/api").then(Response => Response.json()).then(data => console.log(data));
+  },[]);
   return (
     <Router>
       <Routes>
